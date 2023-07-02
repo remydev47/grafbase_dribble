@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dribble Clone
 
-## Getting Started
+This repository contains a Dribble clone built with Next.js, TypeScript, and Grafbase. The Dribble Clone is a web application that allows users to discover, share, and interact with design inspiration and resources.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **User Authentication:** Users can sign up, log in, and manage their profiles.
+- **Explore Designs:** Users can browse through a collection of design inspirations and resources.
+- **Upload Designs:** Users can upload their own designs to share with the community.
+- **Like and Comment:** Users can like and comment on designs to provide feedback and engage with other users.
+- **Follow Users:** Users can follow their favorite designers to stay updated with their latest work.
+- **Search and Filters:** Users can search for specific designs or apply filters to find inspirations based on categories, tags, or popularity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js:** A React framework for building server-side rendered and static websites.
+- **TypeScript:** A statically typed superset of JavaScript that enhances code reliability and maintainability.
+- **Grafbase:** A powerful design database for storing and retrieving design assets and information.
+- **CSS Modules:** Local scoped CSS stylesheets to ensure style encapsulation and prevent class name conflicts.
+- **Axios:** A promise-based HTTP client for making API requests to the backend server.
+- **React Query:** A data-fetching library that provides caching, refetching, and optimistic updates for seamless user experiences.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone this repository to your local machine.
+   ```
+   git clone https://github.com/your-username/dribble-clone.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project directory.
+   ```
+   cd dribble-clone
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install the dependencies.
+   ```
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Set up the environment variables.
+   - Create a `.env.local` file in the root directory.
+   - Add the required environment variables, such as database credentials and API keys.
 
-## Deploy on Vercel
+5. Start the development server.
+   ```
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Open your browser and visit `http://localhost:3000` to see the Dribble Clone in action.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contribution
+
+Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
+
+To contribute code:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Open a pull request, describing the changes you've made.
+
+Please ensure that your code adheres to the existing coding style and follows best practices.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+
+## Acknowledgements
+
+- This project was inspired by the Dribbble design community (https://dribbble.com).
+- Special thanks to the creators and contributors of Next.js, TypeScript, and Grafbase for their amazing tools and frameworks.
+
+## Contact
+
+If you have any questions or inquiries, feel free to contact the project maintainer at [your-email@example.com](mailto:your-email@example.com).
